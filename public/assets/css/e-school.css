@@ -1,0 +1,415 @@
+.registration-breadcrumb {
+    margin-top: 80px;
+}
+.registration-breadcrumb .page-header {
+    padding-top: 30px;
+}
+
+/*Subject box*/
+.subject-box {
+    display: block;
+    box-shadow: 4px 8px 16px #00000014;
+    border-radius: 15px;
+    padding: 15px;
+    cursor: pointer;
+    transition: .3s;
+    text-align: center;
+}
+.subject-box:hover, .subject-check input[type=checkbox]:checked + label{
+    background-color: #24695c;
+}
+.subject-box:hover h6, .subject-check input[type=checkbox]:checked + label h6{
+    color: #fff;
+}
+
+.subject-box .subject-image img {
+    height: 190px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.subject-image {
+    margin-bottom: 12px;
+}
+.subject-check input[type=checkbox], .grade-check input[type=checkbox] {
+    position: absolute;
+    top: 0;
+    opacity: 0;
+    visibility: hidden;
+}
+.subject-check, .grade-check{margin-bottom: 25px;}
+.btn.eschool-large-btn {
+    padding: 12px 40px;
+    font-size: 15px;
+}
+
+.btn-primary:hover {
+    background-color: #242934!important;
+    border-color: #242934!important;
+}
+.mb-25{
+    margin-bottom: 25px;
+}
+
+/*Grade Box*/
+.grade-check .icon-wrraper{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 37px;
+    color: #24695c;
+    margin-bottom: 15px;
+}
+
+.grade-check .feature-box {
+    cursor: pointer;
+}
+
+.grade-check .feature-box:hover .icon-wrraper, .grade-check input[type="checkbox"]:checked + .feature-box .icon-wrraper {
+    color: #fff;
+}
+
+.grade-check input[type="checkbox"]:checked + .feature-box .icon-wrraper {
+    background: #24695c;
+}
+.grade-check input[type="checkbox"]:checked + .feature-box{
+    border-color: #24695c;
+}
+.grade-wrapper, .subject-wrapper, .my-account-wrapper, .change-password-wrapper {
+    min-height: 74vh;
+}
+.title.eschool-title {
+    width: 100%;
+}
+
+/*Chapter Page*/
+.landing-wrraper .core-feature .feature-box.chapter-box .icon-wrraper svg {
+    width: 25px;
+}
+.landing-wrraper .core-feature .feature-box.chapter-box {
+    border-radius: 6px;
+}
+
+.landing-wrraper .core-feature .feature-box.chapter-box:hover p {
+    color: #fff;
+}
+
+.landing-wrraper .core-feature .feature-box.chapter-box p {
+    color: #999;
+}
+.landing-wrraper .core-feature .feature-box .icon-wrraper{
+    max-height: 60px;
+    min-width: 60px;
+}
+.completed-chapter .icon-wrraper {
+    background: #24695c!important;
+}
+
+.completed-chapter .icon-wrraper svg {
+    color: #fff!important;
+}
+.course-player-wrapper{
+    margin-top: 80px;
+}
+.landing-wrraper .core-feature .feature-box:hover .icon-wrraper {
+    background: #24695c!important;
+}
+
+.landing-wrraper .core-feature .feature-box:hover .icon-wrraper svg {
+    color: #24695c!important;
+}
+
+/*Course Player*/
+.chapter-lessons-accordion {
+    padding: 15px 10px;
+    box-shadow: 0 0.5em 1em -0.125em #0a0a0a1a, 0 0 0 1px #0a0a0a05;
+    border-radius: 4px;
+}
+.chapter-lessions-scroll{
+    height: 64.6vh;
+    overflow-y: auto;
+}
+
+.chapter-lessons-accordion .card-header {
+    border-radius: 4px!important;
+    border-bottom: 0px!important;
+}
+
+.chapter-lessons-accordion .card {
+    border-radius: 4px;
+}
+
+.chapter-lessons-accordion .card-body {
+    padding-top: 5px!important;
+}
+
+.chapter-lessons-accordion .default-according .card .card-header h5 {
+    padding-left: 0px;
+    font-weight: 600;
+}
+
+.chapter-lessons-accordion .default-according .card .card-header h5 button {
+    font-weight: 600;
+    font-size: 15px;
+}
+.chapter-video-player {
+    border-radius: 8px;
+    overflow: hidden;
+    height: 500px;
+}
+
+/*Course player*/
+ul.course-each-module li {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: .3s;
+}
+
+ul.course-each-module li i {
+    width: 35px;
+    font-size: 19px;
+}
+
+ul.course-each-module li:hover, ul.course-each-module li.active {
+    color: #24695c;
+}
+
+ul.course-each-module li span {
+    display: inline-flex;
+    font-size: 14px;
+    line-height: 1.4;
+    width: calc(100% - 60px);
+}
+
+ul.course-each-module li i.fa-check-circle {
+    text-align: right;
+    font-size: 15px;
+    color: #dbdbdb;
+}
+ul.course-each-module li.completed i.fa-check-circle{
+    color: #46c881;
+}
+
+ul.course-each-module li i.fa.fa-file-text {
+    font-size: 17px;
+    color: #ff9344;
+}
+
+ul.course-each-module li i.fa.fa-play-circle {
+    color: #ff284f;
+}
+
+ul.course-each-module li i.fa.fa-question-circle {
+    color: #45c881;
+}
+.eschool-quiz .quiz-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.eschool-quiz .quiz-title .quiz-action {
+    text-align: center;
+}
+
+.eschool-quiz .quiz-title .quiz-action .quiz-timer {
+    margin-top: 10px;
+}
+
+.eschool-quiz .quiz-header{
+    background: #24695c;
+    border-radius: 6px;
+    padding: 10px;
+    box-shadow: 0 0.5em 1em -0.125em #0a0a0a1a, 0 0 0 1px #0a0a0a05;
+}
+.quiz-action .btn-light {
+    background-color: #fff!important;
+    transition: .3s;
+}
+
+.quiz-action .btn-light:hover {
+    background-color: #2b2b2b!important;
+    color: #fff;
+    border-color: #2b2b2b!important;
+}
+
+.quiz-timer {
+    font-size: 16px;
+}
+
+.quiz-timer i {
+    font-size: 20px;
+}
+.quiz-progress .progress{
+    height: 11px;
+}
+.quiz-options label {
+    background: #f3f3f3;
+    padding: 12px 10px;
+    border-radius: 6px;
+    display: block;
+    padding-left: 38px;
+}
+
+.quiz-options input[type=radio] {
+    display: none;
+}
+
+.quiz-options label::before {
+    margin-left: 10px;
+}
+
+.quiz-options label::after {
+    margin-left: 10px;
+    top: 17px;
+}
+
+.quiz-body {
+    background: #fff;
+    padding: 15px;
+    box-shadow: 0 0.5em 1em -0.125em #0a0a0a1a, 0 0 0 1px #0a0a0a05;
+    border-radius: 6px;
+    margin-top: 15px;
+}
+
+.quiz-ques-title {
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.eschool-pdf-box {
+    background: #fff;
+    height: 100%;
+    box-shadow: 0 0.5em 1em -0.125em #0a0a0a1a, 0 0 0 1px #0a0a0a05;
+    padding: 50px 0;
+    border-radius: 6px;
+}
+
+.eschool-pdf-box object, .eschool-pdf-box iframe {
+    height: 100%!important;
+}
+.user-info-dropdown .avatar {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.user-info-dropdown .avatar svg {width: 18px;height: 18px;}
+
+.user-info-dropdown .avatar .rounded-circle {
+    width: 34px!important;
+    height: 34px!important;
+}
+
+.user-info-dropdown .onhover-show-div {
+    width: 250px;
+    top: 55px;
+    left: unset;
+    right: 0;
+    border-radius: 8px;
+    padding: 15px;
+}
+.user-info-dropdown .onhover-dropdown {
+    padding: 10px;
+}
+.landing-wrraper .landing-header {
+    padding: 13px 0;
+}
+.buy-block.user-info-dropdown .bookmark-icon {
+    width: 18px;
+    height: 18px;
+    margin-right: 15px;
+    vertical-align: middle;
+}
+
+.buy-block.user-info-dropdown ul li.add-to-bookmark {
+    font-weight: 500;
+}
+.buy-block.user-info-dropdown ul li.add-to-bookmark a {
+    display: block;
+    padding: 9px 0;
+    color: #2b2b2b;
+}
+
+.buy-block.user-info-dropdown ul li.add-to-bookmark a:hover {
+    color: #24695c;
+}
+.landing-wrraper .landing-header ul.landing-menu li.nav-item a.nav-link{
+    font-size: 15px;
+}
+.my-subjects .progress-bar.bg-primary {
+    background: #46c881!important;
+}
+.my-subjects h6 {
+    padding: 8px 0;
+}
+.my-account-wrapper .card {
+    box-shadow: 4px 8px 16px #00000014;
+    border: none;
+    border-radius: 15px;
+}
+.subject-wise-marks .card {
+    border: 1px solid #e6edef!important;
+    border-radius: 4px!important;
+}
+
+.subject-wise-marks .default-according {
+    margin-top: 20px;
+}
+.chapter-lessons-accordion.subject-wise-marks {
+    padding: 20px;
+}
+ul.chapter-units-marks li {
+    border-bottom: 1px solid #f6f7fb;
+}
+.total-marks svg {
+    width: 18px;
+    height: 18px;
+    color: #46c881;
+    position: relative;
+    top: 4px;
+    margin-right: 3px;
+}
+.result-item {
+    box-shadow: 0 0.5em 1em -0.125em #0a0a0a1a, 0 0 0 1px #0a0a0a05;
+    border-radius: 4px;
+    margin: 0 10px;
+    width: 110px;
+    padding: 10px;
+}
+
+.result-item h4 {
+    font-weight: 600;
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+.result-icon {
+    background: #fff7d5;
+    width: 48px;
+    height: 48px;
+    line-height: 48px;
+    border-radius: 50%;
+    margin: 0 auto 15px;
+}
+
+.result-icon svg {color: #ffc107;position: relative;top: 6px;}
+
+.result-item p {
+    margin: 0;
+    color: #717171;
+}
+.result-item.spent-time .result-icon, .final-score-fail .result-icon {
+    background: rgb(255 40 79 / 10%);
+}
+
+.result-item.spent-time .result-icon svg, .final-score-fail .result-icon svg{
+    color: #ff284f;
+}
+.final-score-pass .result-icon {
+    background: rgb(70 200 129 / 10%);
+}
+
+.final-score-pass .result-icon svg {
+    color: #46c881;
+}
